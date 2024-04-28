@@ -15,6 +15,8 @@
 .img-box {
     width: 50%;
     height: 100%;
+    background-color: #5bb4ff;
+    padding: 0px;
 }
 
 .img-box img {
@@ -34,13 +36,13 @@
     width: 50%;
 }
 
-.content-box .form-box ul {
+.content-box .form-box .ul {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.content-box .form-box ul li {
+.content-box .form-box .ul li {
     list-style: none;
     width: 60px;
     height: 60px;
@@ -53,24 +55,24 @@
     transition: .3s;
 }
 
-.content-box .form-box ul li:hover {
-    background: #e2dddd;
+.content-box .form-box .ul li:hover {
+    background: #e4e4e4;
 }
 
-.form-box ul li img {
+.form-box .ul li img {
     width: 40px;
 }
 
 .content-box .form-box h2 {
-    color: rgb(12, 12, 12);
+    color: #32324f;
     font-weight: 600;
     font-size: 2em;
     text-transform: uppercase;
     margin-bottom: 15px;
     text-align: center;
-}
+}  
 
-.content-box .form-box .input-box {
+.content-box .form-box .input-box{
     margin-bottom: 20px;
 }
 
@@ -81,16 +83,16 @@
     font-weight: 400;
     border: none;
     font-size: 17px;
-    color: rgb(12, 12, 12);
-    background-color: rgb(205, 220, 233);
-    border-radius: 7px;
+    color: #32324f;
+    background-color: #ecf2f7;
+    border-radius: 5px;
 }
 
 .content-box .form-box .input-box span {
     font-size: 16px;
     margin-bottom: 5px;
     display: inline-block;
-    color: rgb(12, 12, 12);
+    color: #32324f;
     font-weight: 400;
 }
 
@@ -114,7 +116,7 @@
     background: #3286ca;
 }
 
-.conteiner-box .form-box .remember {
+.content-box .form-box .remember {
     margin-bottom: 20px;
     color: #32324f;
     font-weight: 400;
@@ -124,28 +126,29 @@
     justify-content: space-between;
 }
 
-.conteiner-box .form-box .remember a {
+.content-box .form-box .remember a{
     text-decoration: none;
     color: #4aa4ee;
 }
 
-.conteiner-box .form-box .remember a:hover {
+.content-box .form-box .remember a:hover {
     color: #3286ca;
 }
 
-.conteiner-box .form-box .input-box p {
+.content-box .form-box .input-box p {
     color: #32324f;
 }
 
-.conteiner-box .form-box .input-box p a {
+.content-box .form-box .input-box p a {
     color: #4aa4ee;
 }
 
-.conteiner-box .form-box .input-box p a:hover {
+.content-box .form-box .input-box p a:hover {
     color: #3286ca;
 }
 
-.conteiner-box .form-box h3 {
+.content-box .form-box h3
+{
     color: #607d8b;
     text-decoration: none;
     margin: 40px 0 15px;
@@ -154,32 +157,32 @@
     font-size: 22px;
 }
 
-@media (max-width:868px) {
+@media (max-width:868px) { 
     .conteiner-login .img-box {
         display: none;
     }
 
-    .conteiner-login .conteiner-box {
+    .conteiner-login .content-box {
         width: 100%;
     }
 
-    .conteiner-login .conteiner-box .form-box {
+    .conteiner-login .content-box .form-box {
         width: 100%;
         padding: 40px;
         background: white;
         margin: 50px;
     }
 
-    .conteiner-login .conteiner-box .form-box h3 {
+    .conteiner-login .content-box .form-box h3 {
         margin: 30px 0 10px;
     }
 }
 
 @media (max-width:450px) {
-    .conteiner-login .conteiner-box .form-box .remember{
+    .conteiner-login .content-box .form-box .remember{
         flex-wrap: wrap;
     }
-    .conteiner-login .conteiner-box .form-box .remember a{
+    .conteiner-login .content-box .form-box .remember a{
         margin-top: 20px;
     }
 }
